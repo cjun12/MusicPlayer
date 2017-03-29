@@ -6,4 +6,7 @@
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="tab_home_title">首页</string>
+    <string name="tab_music_library_title">音乐库</string>
+
 </resources>
