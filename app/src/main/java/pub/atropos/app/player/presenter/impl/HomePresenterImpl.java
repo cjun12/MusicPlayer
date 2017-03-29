@@ -5,17 +5,17 @@ import android.provider.MediaStore;
 
 import pub.atropos.app.player.model.ISongModel;
 import pub.atropos.app.player.model.impl.SongModelImpl;
-import pub.atropos.app.player.presenter.ISongPresenter;
+import pub.atropos.app.player.presenter.IHomePresenter;
 import pub.atropos.app.player.view.IHomeView;
 
 /**
  * Created by 980558 on 2017/3/27.
  */
-public class SongPresenterImpl implements ISongPresenter {
+public class HomePresenterImpl implements IHomePresenter {
     private ISongModel songModel;
     private IHomeView homeView;
 
-    public SongPresenterImpl(IHomeView homeView) {
+    public HomePresenterImpl(IHomeView homeView) {
         this.homeView = homeView;
         this.songModel = new SongModelImpl(this);
     }

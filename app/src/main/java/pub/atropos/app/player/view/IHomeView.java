@@ -7,6 +7,6 @@ import android.content.Context;
  */
 
 public interface IHomeView {
-    public void changeLocalSongCount(int cnt);
-    public Context getContext();
+    void changeLocalSongCount(int cnt);
+    Context getContext();
 }

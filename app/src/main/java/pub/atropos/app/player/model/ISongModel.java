@@ -7,5 +7,5 @@ import java.util.List;
  */
 
 public interface ISongModel {
-    public void searchInternetSong();
+    void searchInternetSong();
 }

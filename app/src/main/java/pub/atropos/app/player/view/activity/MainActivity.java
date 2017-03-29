@@ -76,5 +76,6 @@ public class MainActivity extends BaseActivity {
         views = (ViewPager) findViewById(R.id.views);
         views.setAdapter(viewsAdapter);
         tab.setupWithViewPager(views);
+
     }
 }
